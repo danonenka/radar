@@ -17,6 +17,7 @@ MainWindow::MainWindow(QWidget *parent)
     // Настраиваем таблицу
     ui->tableWidget->setColumnCount(2);
     ui->tableWidget->setHorizontalHeaderLabels({"Угол (°)", "Амплитуда"});
+    resize(1600,1400);
 }
 
 MainWindow::~MainWindow() {
